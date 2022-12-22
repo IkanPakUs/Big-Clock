@@ -11,7 +11,7 @@ const displayTime = () => {
 
         $("#hour").innerHTML = hour;
         $("#minute").innerHTML = minute;
-    }, 60000);
+    }, 1000);
 }
 
 (function () {
