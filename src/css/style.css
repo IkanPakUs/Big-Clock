@@ -27,6 +27,12 @@
     align-items: center;
 }
 
+.container #date-year {
+    display: flex;
+    font-size: 28px;
+    color: var(--text-color);
+}
+
 .container .clock {
     color: var(--text-color);
     font-size: 240px;
@@ -63,7 +69,7 @@
 }
 
 .container .gallery {
-    width: 35%;
+    width: 460px;
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -12,8 +12,12 @@ const displayTime = () => {
 
         $("#hour").innerHTML = hour;
         $("#minute").innerHTML = minute;
-        console.log(minute);
     }, 1000);
+}
+
+const displayDate = () => {
+    const current_date = new Date();
+    $('#date-year').innerHTML = current_date.toDateString();
 }
 
 (function () {
@@ -25,4 +29,5 @@ const displayTime = () => {
     $("#minute").innerHTML = minute;
 
     displayTime();
+    displayDate();
 })();
